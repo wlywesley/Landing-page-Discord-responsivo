@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&family=Open+Sans:wght@400;800&display=swap');
+
+body {
+    margin: 0px;
+    padding: 0px;
+    min-height: 100vh;
+}
+
+header {
+    background: url(../img/Header\ Background.png) no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 450px;
+}
+
+header h1 {
+    font-size: 25px;
+    font-family: 'Luckiest Guy';
+    font-style: normal;
+    font-weight: 400;
+    color: #FFFFFF;
+    margin-left: 20px;
+    margin-top: 0px;
+    padding-top: 40px;
+}
+header p {
+    margin-top: 20px;
+    margin-bottom: 70px;
+    margin-left: 13px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 22px;
+
+    color: #FFFFFF;
+}
+
+.buttons{
+    text-align: center;
+}
+
+#bdiscnavegador {
+    border-radius: 28px;
+    width: 340px;
+    height: 50px;
+    position: relative;
+
+    background: #23272A;
+    color: #FFFFFF;
+
+}
+
+#bbaixarwindows {
+    border-radius: 28px;
+    width: 340px;
+    height: 50px;
+    position: relative;
+    margin-bottom: 10px;
+}
+
+.section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.imgsection {
+    width: 100%;
+    max-width: 550px;
+}
+
+.section h2 {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 33px;
+    max-inline-size: 362px;
+
+    color: #23272A;
+}
+
+.section p {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    max-inline-size: 348px;
+
+    color: #23272A;
+}
+
+.section h1 {
+    font-family: 'Luckiest Guy';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 32px;
+    margin-left: 20px;
+    max-inline-size: 372px;
+
+    color: #23272A;
+}
+
+#section4 p {
+    margin-left: 20px;
+}
+
+footer {
+    display: flex;
+}
+
+.imgfooter { 
+    width: 100%;
+}
+
+@media (max-width: 375px){
+    #bbaixarwindows{
+        width: 290px;
+    }
+
+    #bdiscnavegador {
+        width: 290px;
+    }
+
+    header p{
+        margin-bottom: 20px;
+    }
+}
+
+@media (min-width: 720px) {
+   .buttons{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 10px;
+   }
+
+   header h1 {
+    text-align: center;
+    font-size: 56px;
+   }
+
+   header p {
+    text-align: center;
+   }
+
+   .section {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+   }
+
+   .section h1 {
+    text-align: center;
+   }
+
+   #section2 {
+    flex-direction: row-reverse;
+   }
+
+   #section4 {
+    flex-direction: column;
+   }
+
+   main h2 {
+    font-size: 40px !important;
+    line-height: 54px !important;
+   }
+}
